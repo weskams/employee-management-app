@@ -5,3 +5,36 @@
     margin-bottom: 20px;
     text-align: center;
 }
+.navigation{
+    height: 100px;
+}
+
+nav {
+    background-color: #f0f0f0;
+    display: flex;          
+    justify-content: space-between; 
+    align-items: center;     
+    padding: 0 20px;         
+}
+
+.home{
+    padding: 20px;
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+    
+}
+
+.contact{
+    padding: 20px;
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+}
+
+.view{
+    padding: 20px;
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+}
