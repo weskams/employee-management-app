@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newcontact.css">
+    <title>New Contact</title>
+</head>
+<body class = "body">
+    <div class = "center">
+        <h1>New Contact</h1>
+        <p>Enter contact information:</p>
+        <form action="newcontact.php" method="POST">
+            <p>Eneter your name here: </p>
+            <input type="text" name="name" placeholder="Name">
+            <br>
+            <br>
+            Gender  <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <p>Enter your email here: </p>
+            <input type="email" name="email" placeholder="Email">
+            <br>
+            <p>Enter your address here: </p>
+            <input type="text" name="address" placeholder="Address">    
+            <br>
+            <p>Enter your date of birth here: </p>
+            <input type="date" name="date_of_birth" placeholder="Date of Birth">
+            <br>
+            <p>Enter your phone number here: </p>
+            <input type="tel" name="phone" placeholder="Phone">
+            <br>
+            <p>Eneter your department here: </p>
+            <input type="text" name="department" placeholder="Department">  
+            <br>
+            <p>Enter your position here: </p>
+            <input type="text" name="position" placeholder="Position">
+            <br> 
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <script src="newcontact.js"></script>
+    </div>    
+</body>
+</html>
