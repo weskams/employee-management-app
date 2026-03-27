@@ -26,8 +26,6 @@ $json = json_encode($contact);
 
 // Save to file
 file_put_contents("contacts.txt", $json . PHP_EOL, FILE_APPEND);
-
-// Redirect back or to view page
-header("Location: viewallcontacts.php");
+echo "<script>alert('Information successfully uploaded')</script>";
 exit();
 ?>
