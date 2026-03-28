@@ -36,10 +36,21 @@
                                 echo "<td>" . htmlspecialchars($contact['date_of_birth']) . "</td>";
                                 echo "<td>" . htmlspecialchars($contact['department']) . "</td>";
                                 echo "<td>" . htmlspecialchars($contact['position']) . "</td>";
-                                echo "<td>
-                                <button onclick='showDetails(" . json_encode($contact) . ")'>Details</button>
-                                <button onclick='editContact(" . json_encode($contact) . ")'>Edit</button>
-                                <button onclick='deleteContact(" . json_encode($contact) . ")',class='delete'>Delete</button>
+                                echo "<td class='action-buttons'>
+                                <button onclick='showDetails(" . json_encode($contact) . ")' class='details'>
+                                <img src='details.jpg' alt='Details Icon'>
+                                <span>Details</span>
+                                </button>
+
+                                <button onclick='editContact(" . json_encode($contact) . ")' class = 'edit'>
+                                <img src='edit.png' alt='Edit Icon'>
+                                <span>Edit</span>
+                                </button>
+
+                                <button onclick='deleteContact(" . json_encode($contact) . ")' class='delete'>
+                                <img src='delete.png' alt='Delete Icon'>
+                                <span>Delete</span>
+                                </button>
                                 </td>";
                                 echo "</tr>";
                             }

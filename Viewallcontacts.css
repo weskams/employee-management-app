@@ -4,13 +4,63 @@
 }
 
 .table {
-    width: auto;
+    width: 70%;
     align-items: center;
 }
 
+.action-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+
 .delete {
-    background-color: red;
-    color: white;
+    display: flex;
+    align-items: center;   
+    gap: 8px;              
+    padding: 8px 12px;
     border: none;
-    background-image: url'delete.png';
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+}
+
+.delete img {
+    width: 20px;
+    height: 20px;
+}
+
+.edit{
+    display: flex;
+    align-items: center;   
+    gap: 8px;              
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+}
+
+.edit img {
+    width: 20px;
+    height: 20px;
+}
+
+.details{
+    display: flex;
+    align-items: center;   
+    gap: 8px;              
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+}
+
+.details img {
+    width: 20px;
+    height: 20px;
 }
