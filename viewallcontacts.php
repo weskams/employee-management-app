@@ -17,8 +17,9 @@
                 <th>Date of Birth</th>
                 <th>Department</th>
                 <th>Position</th>
-                <th>Delete</th>
+                <th>Actions</th>
             </tr>
+            <script src="viewallcontacts.js"></script>
             <?php
                 if (file_exists("contacts.txt")) {
                     $lines = file("contacts.txt");
@@ -35,7 +36,11 @@
                                 echo "<td>" . htmlspecialchars($contact['date_of_birth']) . "</td>";
                                 echo "<td>" . htmlspecialchars($contact['department']) . "</td>";
                                 echo "<td>" . htmlspecialchars($contact['position']) . "</td>";
-                                echo "<td><button>Delete</button></td>";
+                                echo "<td>
+                                <button onclick='showDetails(" . json_encode($contact) . ")'>Details</button>
+                                <button onclick='editContact(" . json_encode($contact) . ")'>Edit</button>
+                                <button onclick='deleteContact(" . json_encode($contact) . ")'>Delete</button>
+                                </td>";
                                 echo "</tr>";
                             }
                             

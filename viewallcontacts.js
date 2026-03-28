@@ -1,0 +1,17 @@
+function showDetails() {
+    alert("Showing full employee details...");
+}
+
+function editContact() {
+    alert("Edit functionality coming soon...");
+}
+
+function deleteContact() {
+    let confirmDelete = confirm("Are you sure you want to delete?");
+    
+    if (confirmDelete) {
+        alert("Contact deleted (demo only)");
+    } else {
+        alert("Delete cancelled");
+    }
+}
