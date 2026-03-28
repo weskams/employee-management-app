@@ -39,7 +39,7 @@
                                 echo "<td>
                                 <button onclick='showDetails(" . json_encode($contact) . ")'>Details</button>
                                 <button onclick='editContact(" . json_encode($contact) . ")'>Edit</button>
-                                <button onclick='deleteContact(" . json_encode($contact) . ")'>Delete</button>
+                                <button onclick='deleteContact(" . json_encode($contact) . ")' class='delete'>Delete</button>
                                 </td>";
                                 echo "</tr>";
                             }
