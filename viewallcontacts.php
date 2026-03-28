@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Viewallcontacts.css">
+    <link rel="stylesheet" href="viewallcontacts.css">
     <title>View All Contacts</title>
 </head>
 <body class="body">
@@ -39,7 +39,7 @@
                                 echo "<td>
                                 <button onclick='showDetails(" . json_encode($contact) . ")'>Details</button>
                                 <button onclick='editContact(" . json_encode($contact) . ")'>Edit</button>
-                                <button onclick='deleteContact(" . json_encode($contact) . ")' class='delete'>Delete</button>
+                                <button onclick='deleteContact(" . json_encode($contact) . ")',class='delete'>Delete</button>
                                 </td>";
                                 echo "</tr>";
                             }

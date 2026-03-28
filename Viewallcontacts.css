@@ -11,5 +11,6 @@
 .delete {
     background-color: red;
     color: white;
-    background-image: "delete.png";
+    border: none;
+    background-image: url'delete.png';
 }

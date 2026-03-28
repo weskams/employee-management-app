@@ -4,3 +4,4 @@
 {"name":"wesley","gender":"male","email":"wes1@gmail.com","address":"rongai","date_of_birth":"2026-03-04","phone":"0798088797","department":"IT","position":"cyber security"}
 {"name":"wesley","gender":"male","email":"wes1@gmail.com","address":"rongai","date_of_birth":"2026-03-04","phone":"0798088797","department":"IT","position":"cyber security"}
 {"name":"wesley","gender":"male","email":"wes1@gmail.com","address":"rongai","date_of_birth":"2026-03-05","phone":"0798088797","department":"IT","position":"cyber security"}
+{"name":"mike","gender":"male","email":"wes1@gmail.com","address":"rongai","date_of_birth":"2026-03-02","phone":"0798088797","department":"IT","position":"cyber security"}
